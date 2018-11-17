@@ -1,0 +1,77 @@
+﻿html{
+	background-image: url('background_imag.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	font-family:"Palatino Linotype";
+}
+
+h1{
+	text-align:center;
+	color:white;
+}
+
+h2{
+	text-align:center;
+	color:red;
+}
+
+.image_speisekarte{
+	width:90px;
+	height:90px;
+}
+
+#bestellung_form_area{
+	
+	
+	position:absolute;
+	width:25%;
+	right:0px;
+}
+
+select{
+	width:100px;
+}
+
+#speisekarte{
+	width:10%;
+	height:20%;
+	position:absolute;
+	left:0px;
+}
+
+#middle_container{
+	position:relative;
+	background-color:#F5F6CE;
+	width:50%;
+	height:40%;
+	margin:auto;
+	border-radius:4%;
+	
+}
+
+#hyperlink_area{
+	padding-top:3%;
+	padding-bottom:3%;
+	border:medium;
+	text-align:center;
+}
+
+a{
+	background-color: red;
+  	box-shadow: 0 5px 0 darkred;
+  	color: white;
+  	padding: 1em 1.5em;
+  	position: relative;
+  	text-decoration: none;
+  	text-transform: uppercase;
+	
+}
+
+a:hover {
+  background-color: #ce0606;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}

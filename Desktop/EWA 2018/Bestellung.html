@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bestellung</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="myScripts.js"></script>
+	</head>
+	<body>
+	
+		<h1>Bestellung</h1>
+
+		<section id="hyperlink_area">
+			<a href="Bestellung.html" >Bestellung</a>
+			<a href="Fahrer.html" >Fahrer</a>
+			<a href="Bäcker.html" >Bäcker</a>
+			<a href="Kunde.html" >Kunde</a>
+		</section>
+
+		<section id="middle_container">
+		
+			
+			<section id="speisekarte">	
+			<h2>Speisekarte</h2>
+					<img src="Margharitapizza.jpg" onClick="pizzaHinzufuegen(this)" class="image_speisekarte" id="Margherita" alt="Hier war mal eine Pizza" title="Margharita"/>
+					 Margharita: 3.50€
+				
+					<img src="Hawaiipizza.jpg"  onClick="pizzaHinzufuegen(this)" class="image_speisekarte" id="Hawaii" alt="Hier war mal eine Pizza" title="Hawaii"/>
+					Hawaiipizza: 5.50€
+				
+					<img src="Spinatpizza.jpg" onclick="pizzaHinzufuegen(this)" class="image_speisekarte" alt="Hier war mal eine Pizza" id="Spinat" title="Spinat"/>
+					Spinatpizza: 6.00€
+			</section>
+			<section id="bestellung_form_area">
+			<form action="https://wwwold.fbi.h-da.de/cgi-bin/Echo.pl" id="form1" accept-charset="UTF-8" method="get">
+				<label>Warenkorb<br>
+					<select name="selectBox" size="10" id="Warenkorb_Bestellung"></select>					
+				</label>
+			
+				<p id="preis">0</p>
+		
+				
+					
+						<label>Vorname:
+							<input type="text" name="Vorname" size="30" maxlength="50" placeholder="Eingabe" required/>
+						</label>
+						
+						<label>Nachname:
+							<input type="text" name="Nachname" size="30" maxlength="50" placeholder="Eingabe" required/>
+						</label>
+						
+						<label>Adresse:
+							<input type="text" name="Adresse" size="30" maxlength="50" placeholder="Eingabe" required/>
+						</label>
+					
+					
+						<input type="reset" value="Auswahl löschen"/>
+						<input type="reset" value="Alle löschen"/>
+						<input type="submit" value="Bestellen"/>
+					
+				
+			
+				
+			
+			
+			</form>
+			</section>
+		</section>
+	</body>
+</html>
