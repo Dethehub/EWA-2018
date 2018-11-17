@@ -42,21 +42,21 @@
 				
 					
 						<label>Vorname:
-							<input type="text" name="Vorname" size="30" maxlength="50" placeholder="Eingabe" required/>
+							<input type="text" id="first_name" name="Vorname" onkeyup="updateSubmitButton()" size="30" maxlength="50" placeholder="Eingabe" required/>
 						</label>
 						
 						<label>Nachname:
-							<input type="text" name="Nachname" size="30" maxlength="50" placeholder="Eingabe" required/>
+							<input type="text" id="last_name" name="Nachname" onkeyup="updateSubmitButton()" size="30" maxlength="50" placeholder="Eingabe" required/>
 						</label>
 						
 						<label>Adresse:
-							<input type="text" name="Adresse" size="30" maxlength="50" placeholder="Eingabe" required/>
+							<input type="text" id="adress" name="Adresse" onkeyup="updateSubmitButton()" size="30" maxlength="50" placeholder="Eingabe" required/>
 						</label>
 					
 					
-						<input type="reset" value="Auswahl löschen"/>
-						<input type="reset" value="Alle löschen"/>
-						<input type="submit" value="Bestellen"/>
+						<input type="button" onClick="deleteSelected()" value="Auswahl löschen"/>
+						<input type="button" onCLick="deleteAll()" value="Alle löschen"/>
+						<input id="submit_button" type="submit" disabled value="Bestellen"/>
 					
 				
 			
