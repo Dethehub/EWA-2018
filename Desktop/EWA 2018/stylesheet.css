@@ -20,13 +20,7 @@ h2{
 	height:90px;
 }
 
-#bestellung_form_area{
-	
-	
-	position:absolute;
-	width:25%;
-	right:0px;
-}
+
 
 select{
 	width:100px;
@@ -47,6 +41,12 @@ select{
 	margin:auto;
 	border-radius:4%;
 	
+}
+
+#bestellung_form_area{
+	position:absolute;
+	width:25%;
+	right:0px;
 }
 
 #hyperlink_area{
@@ -74,4 +74,8 @@ a:hover {
 a:active {
   box-shadow: none;
   top: 5px;
+}
+
+@media () {
+	
 }

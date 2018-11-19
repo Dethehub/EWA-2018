@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="de">
 	<head>
-		<meta charset="UTF-8" />
+		<meta charset="UTF-8"> 
 		<title>Bestellung</title>
 		<link rel="stylesheet" href="stylesheet.css">
 		<script src="myScripts.js"></script>
 	</head>
 	<body>
-	
+	<section class="grid">
 		<h1>Bestellung</h1>
 
-		<section id="hyperlink_area">
+		<div id="hyperlink_area">
 			<a href="Bestellung.html" >Bestellung</a>
 			<a href="Fahrer.html" >Fahrer</a>
 			<a href="Bäcker.html" >Bäcker</a>
 			<a href="Kunde.html" >Kunde</a>
-		</section>
+		</div>
 
-		<section id="middle_container">
+		<div id="middle_container">
 		
 			
 			<section id="speisekarte">	
@@ -32,10 +32,11 @@
 					Spinatpizza: 6.00€
 			</section>
 			<section id="bestellung_form_area">
+			<h3>Warenkorb</h3>
 			<form action="https://wwwold.fbi.h-da.de/cgi-bin/Echo.pl" id="form1" accept-charset="UTF-8" method="get">
-				<label>Warenkorb<br>
+				
 					<select name="selectBox" size="10" id="Warenkorb_Bestellung"></select>					
-				</label>
+				
 			
 				<p id="preis">0</p>
 		
@@ -65,6 +66,7 @@
 			
 			</form>
 			</section>
+		</div>
 		</section>
 	</body>
 </html>
