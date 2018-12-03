@@ -1,0 +1,129 @@
+html{
+	background-image: url('background_imag.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	font-family:"Palatino Linotype";
+}
+
+#hyperlink_area{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 3em;
+}
+
+#middle_container{
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;*/
+	
+	margin-left: 25%;
+	margin-right: 25%;
+	
+	
+	
+	margin-bottom:2em;
+	margin-top:10em;
+	
+	
+	background-color:#F5F6CE;
+	border-radius:1em;
+}
+
+#flex-box-radiobuttons{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	margin-top:5%;
+	margin-bottom:2em;
+	
+	border-style: solid;
+    border-width: 1px;
+	border-radius:1em;
+	
+}
+
+.flex-radio-item{
+	margin-bottom:1em;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+/* Hyperlink Button Styling */
+
+a{
+	background-color: red;
+  	box-shadow: 0 5px 0 darkred;
+  	color: white;
+  	padding: 1em 1.5em;
+  	position: relative;
+  	text-decoration: none;
+  	text-transform: uppercase;
+	
+}
+
+a:hover {
+  background-color: #ce0606;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+/* Hyperlink Buttons Styling ende */
+
+
+label{
+	
+}
+
+h1{
+	text-align:center;
+	background-color:#F5F6CE;
+	border-radius:1em;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+p{
+	
+}
+
+legend{
+	text-align:center;
+	text-decoration: underline;
+	font-size: 15pt;
+}
+
+#neue_bestellung_button{
+	margin-left:25%;
+	margin-right:25%;
+}
+
+
+@media all and (min-width: 30em) {
+#hyperlink_area {
+    flex-direction: row;
+  }
+  
+#neue_bestellung_button{
+	height: 3em;
+	width: 5em;
+  }
+ 
+}
+
+
+@media all and (min-width: 75em) {
+  #flex-box-radiobuttons {
+    flex-direction: row;
+  }
+}
+
+
+
+
+
